@@ -39,6 +39,15 @@ A full-stack MERN customer registry application designed to track customer detai
 5. Open your browser and go to: **`http://localhost:5173/`**
 
 ---
+## Demo Credentials
+
+### Admin
+
+Email: surya@gmail.com
+
+Password: surya
+
+
 
 ## 🛠️ Tech Stack & Features
 - **Frontend**: React, Vite, Custom CSS HSL Glassmorphism UI
