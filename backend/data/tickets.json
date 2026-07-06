@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "06no49vp0mr5xvj3l",
+    "customerId": "zltvmyxjomr5xvj2y",
+    "customerName": "Surya",
+    "type": "Support Ticket",
+    "priority": "High",
+    "status": "Open",
+    "subject": "Account Dashboard Connection Issue",
+    "description": "Customer reported they cannot connect to their personal workspace dashboard. Throws error 504.",
+    "createdAt": "2026-07-04T05:46:02.481Z"
+  },
+  {
+    "_id": "ticket-2-sample",
+    "customerId": "cust-2-sample-data",
+    "customerName": "Rahul Sharma",
+    "type": "Inquiry",
+    "priority": "Medium",
+    "status": "Open",
+    "subject": "Billing plan upgrade query",
+    "description": "Customer wants to upgrade from Basic to Pro plan. Requesting a detailed breakdown of features and pricing.",
+    "createdAt": "2026-07-02T10:15:00.000Z"
+  },
+  {
+    "_id": "ticket-3-sample",
+    "customerId": "cust-3-sample-data",
+    "customerName": "Priya Mehta",
+    "type": "Feedback",
+    "priority": "Low",
+    "status": "Resolved",
+    "subject": "App navigation is confusing",
+    "description": "User found the navigation flow in the mobile app to be unintuitive. Suggested adding bottom navigation tabs for key features.",
+    "createdAt": "2026-07-02T15:00:00.000Z"
+  },
+  {
+    "_id": "ticket-4-sample",
+    "customerId": "cust-4-sample-data",
+    "customerName": "Ananya Das",
+    "type": "Support Ticket",
+    "priority": "High",
+    "status": "Open",
+    "subject": "Cannot reset password via email",
+    "description": "Password reset emails are not being received. Checked spam folder as well. This has been ongoing for 3 days.",
+    "createdAt": "2026-07-03T09:00:00.000Z"
+  },
+  {
+    "_id": "ticket-5-sample",
+    "customerId": "cust-2-sample-data",
+    "customerName": "Rahul Sharma",
+    "type": "General Call",
+    "priority": "Low",
+    "status": "Resolved",
+    "subject": "General onboarding call completed",
+    "description": "Completed a 30-minute onboarding walkthrough with the customer. Covered key features and answered all questions satisfactorily.",
+    "createdAt": "2026-07-03T11:30:00.000Z"
+  }
+]

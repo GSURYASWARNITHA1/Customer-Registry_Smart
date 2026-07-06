@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "zltvmyxjomr5xvj2y",
+    "name": "Surya",
+    "email": "surya@example.com",
+    "phone": "+91 98765 43210",
+    "company": "Acme Corporation",
+    "status": "Active",
+    "createdAt": "2026-07-01T10:00:00.000Z"
+  },
+  {
+    "_id": "cust-2-sample-data",
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@techcorp.com",
+    "phone": "+91 91234 56789",
+    "company": "TechCorp India",
+    "status": "Active",
+    "createdAt": "2026-07-02T09:30:00.000Z"
+  },
+  {
+    "_id": "cust-3-sample-data",
+    "name": "Priya Mehta",
+    "email": "priya.mehta@startup.io",
+    "phone": "+91 70000 11223",
+    "company": "Startup.io",
+    "status": "Active",
+    "createdAt": "2026-07-02T14:00:00.000Z"
+  },
+  {
+    "_id": "cust-4-sample-data",
+    "name": "Ananya Das",
+    "email": "ananya@globaltech.in",
+    "phone": "+91 88001 22334",
+    "company": "GlobalTech",
+    "status": "Inactive",
+    "createdAt": "2026-07-03T08:00:00.000Z"
+  }
+]

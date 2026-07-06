@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "agent-default-id",
+    "name": "Agent Support",
+    "email": "agent@registry.com",
+    "password": "password",
+    "role": "agent",
+    "createdAt": "2026-07-04T06:33:02.053Z"
+  },
+  {
+    "_id": "zltvmyxjomr5xvj2y",
+    "name": "Surya",
+    "email": "surya@example.com",
+    "password": "password",
+    "role": "user",
+    "createdAt": "2026-07-04T06:33:02.056Z"
+  },
+  {
+    "_id": "pelmxiaw2mr5zpziw",
+    "name": "swetha",
+    "email": "swetha@gmail.com",
+    "password": "swetha123",
+    "role": "user",
+    "createdAt": "2026-07-04T06:37:43.064Z"
+  }
+]
