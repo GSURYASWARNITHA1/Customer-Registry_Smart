@@ -15,8 +15,8 @@ const Complaints = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/complaints', {
-        method: 'POST',
+const response = await fetch('https://customer-registry-smart.onrender.com/api/complaints', {
+  method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId: user._id, title, description })
       });
