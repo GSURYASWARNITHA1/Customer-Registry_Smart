@@ -10,8 +10,8 @@ const MyComplaints = () => {
 
   const fetchComplaints = () => {
     if (user && user._id) {
-      fetch(`http://localhost:5000/api/complaints/user/${user._id}`)
-        .then(res => res.json())
+fetch(`https://customer-registry-smart.onrender.com/api/complaints/user/${user._id}`)
+  .then(res => res.json())
         .then(data => { setComplaints(data); setLoading(false); })
         .catch(() => setLoading(false));
     }
@@ -22,8 +22,8 @@ const MyComplaints = () => {
   const handleSendMessage = async (e) => {
     e.preventDefault();
     if (!chatMsg.trim() || !selectedComplaint) return;
-    const res = await fetch(`http://localhost:5000/api/complaints/${selectedComplaint._id}/message`, {
-      method: 'POST',
+const res = await fetch(`https://customer-registry-smart.onrender.com/api/complaints/${selectedComplaint._id}/message`, {
+  method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ from: 'user', text: chatMsg })
     });
