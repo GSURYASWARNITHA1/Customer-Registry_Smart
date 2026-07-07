@@ -8,8 +8,8 @@ const AgentDashboard = () => {
   const user = JSON.parse(localStorage.getItem('user'));
 
   const fetchComplaints = () => {
-    fetch('http://localhost:5000/api/complaints')
-      .then(res => res.json())
+fetch('https://customer-registry-smart.onrender.com/api/complaints')
+  .then(res => res.json())
       .then(data => { setComplaints(data); setLoading(false); })
       .catch(() => setLoading(false));
   };
@@ -19,8 +19,8 @@ const AgentDashboard = () => {
   }, []);
 
   const handleMarkResolved = async (id) => {
-    await fetch(`http://localhost:5000/api/complaints/${id}`, {
-      method: 'PUT',
+await fetch(`https://customer-registry-smart.onrender.com/api/complaints/${id}`, {
+  method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ status: 'Resolved' })
     });
@@ -33,8 +33,8 @@ const AgentDashboard = () => {
   const handleSendMessage = async (e) => {
     e.preventDefault();
     if (!chatMsg.trim() || !selectedComplaint) return;
-    const res = await fetch(`http://localhost:5000/api/complaints/${selectedComplaint._id}/message`, {
-      method: 'POST',
+const res = await fetch(`https://customer-registry-smart.onrender.com/api/complaints/${selectedComplaint._id}/message`, {
+  method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ from: 'agent', text: chatMsg })
     });
