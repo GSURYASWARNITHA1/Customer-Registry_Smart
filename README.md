@@ -47,6 +47,21 @@ Email: surya@gmail.com
 
 Password: surya
 
+Admin Account:
+If the default admin account is unavailable, register a new user account and use the below credentials and click on support agent.
+
+## Demo Credentials
+
+### Admin
+
+Email: surya@gmail.com
+
+Password: surya
+
+To test the application:
+1. Register a new account.
+2. Login using the registered credentials.
+3. Explore customer management features.
 
 
 ## 🛠️ Tech Stack & Features
