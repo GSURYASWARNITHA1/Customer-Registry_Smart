@@ -8,6 +8,10 @@ A full-stack MERN Customer Registry application designed to manage customer deta
 
 https://customer-registry-frontend.onrender.com
 
+# 🌐 Demo Video Link
+
+https://drive.google.com/file/d/1w7NOZ2km-Y4HSePLNKPW1aaMzQRx9Sj5/view?usp=drivesdk
+
 ---
 
 # 🚀 How to Run the Project Locally
